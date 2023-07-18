@@ -13,6 +13,7 @@
 		EF7CEE9E2A643EFE001F8CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7CEE9C2A643EFE001F8CAE /* Main.storyboard */; };
 		EF7CEEA02A643F00001F8CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF7CEE9F2A643F00001F8CAE /* Assets.xcassets */; };
 		EF7CEEA32A643F00001F8CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7CEEA12A643F00001F8CAE /* LaunchScreen.storyboard */; };
+		EF7CEEAF2A659568001F8CAE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CEEAE2A659568001F8CAE /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF7CEE9F2A643F00001F8CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF7CEEA22A643F00001F8CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF7CEEA42A643F00001F8CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7CEEAE2A659568001F8CAE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EF7CEE9F2A643F00001F8CAE /* Assets.xcassets */,
 				EF7CEEA12A643F00001F8CAE /* LaunchScreen.storyboard */,
 				EF7CEEA42A643F00001F8CAE /* Info.plist */,
+				EF7CEEAE2A659568001F8CAE /* NetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7CEEAF2A659568001F8CAE /* NetworkService.swift in Sources */,
 				EF7CEE9B2A643EFE001F8CAE /* ViewController.swift in Sources */,
 				EF7CEE972A643EFE001F8CAE /* AppDelegate.swift in Sources */,
 				EF7CEE992A643EFE001F8CAE /* SceneDelegate.swift in Sources */,
